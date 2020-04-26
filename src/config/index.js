@@ -6,7 +6,7 @@ module.exports = {
     MYSQL: {
         host: 'localhost',
         port: '3306',
-        db: 'gotit_blog',
+        db: 'blog',
         username: 'admin',
         password: 'admin',
     },
