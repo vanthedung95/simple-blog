@@ -74,6 +74,6 @@ Get list blogs of one user
 ### GET /blog/[id]
 Get detail one blog
 
-##Project was created using [Express](http://expressjs.com/).
+## Project was created using [Express](http://expressjs.com/).
 
 ### Happy Coding
