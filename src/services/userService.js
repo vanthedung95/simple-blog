@@ -38,19 +38,8 @@ class userService {
         return newUser;
     }
 
-    async updateProfile(data) {
-        data.email = data.email ? data.email.trim() : '';
-        if (data.email === null || data.email === '') {
-            throw new AppError({ message: 'Email is required' });
-        } else {
-            let isValid = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
-                data.email
-            );
-            if (!isValid) {
-                throw new AppError({ message: 'Email is not valid' });
-            }
-        }
-        let users = await this._userRepository.findUser({ email: data.email });
+    async updateProfile(user_id, data) {
+        let users = await this._userRepository.findUser({ id: user_id });
         if (users.length > 0) {
             let user = users[0];
             if (user.account_type === 'facebook') {

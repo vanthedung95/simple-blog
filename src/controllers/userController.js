@@ -14,7 +14,8 @@ export default class userController {
 
     async updateProfile(req, res, next) {
         try {
-            let result = await userService.updateProfile(req.body);
+            let user_id = req.params.id;
+            let result = await userService.updateProfile(user_id, req.body);
             if (result) {
                 res.sendJson({ message: 'Update profile successfully.' });
             } else {

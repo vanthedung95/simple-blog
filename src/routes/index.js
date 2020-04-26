@@ -10,7 +10,7 @@ let _userController = new userController();
 let _blogController = new blogController();
 
 router.post('/register', _userController.register);
-router.put('/profile/update', _userController.updateProfile);
+router.put('/profile/:id', _userController.updateProfile);
 
 router.get('/blogs', _blogController.list);
 router.get('/blog-by-user', _blogController.getByUser);
