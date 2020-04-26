@@ -57,8 +57,8 @@ Request body
 ```
 {
   "user_id": 1,
-	"title": "Nullam a nisl massa",
-	"content": "Etiam placerat tellus et sapien aliquet lacinia. Suspendisse semper varius nisl, quis malesuada lectus faucibus sed. Morbi auctor efficitur dolor, nec blandit nunc tempor vitae. Nullam congue consectetur bibendum. Suspendisse non ultricies felis. Integer tincidunt quam sed odio euismod, at ullamcorper lectus condimentum. Phasellus at odio vel diam rhoncus sagittis in quis purus. Aliquam erat volutpat. Sed aliquam metus in est rhoncus commodo. Ut et odio a nisl facilisis euismod ut at mi. Sed ut diam elementum, imperdiet nunc at, scelerisque arcu. Morbi at neque mattis, posuere lectus ut, euismod sem. Suspendisse vitae dui at mi rhoncus feugiat."
+  "title": "Nullam a nisl massa",
+  "content": "Etiam placerat tellus et sapien aliquet lacinia. Suspendisse semper varius nisl, quis malesuada lectus faucibus sed. Morbi auctor efficitur dolor, nec blandit nunc tempor vitae. Nullam congue consectetur bibendum. Suspendisse non ultricies felis. Integer tincidunt quam sed odio euismod, at ullamcorper lectus condimentum. Phasellus at odio vel diam rhoncus sagittis in quis purus. Aliquam erat volutpat. Sed aliquam metus in est rhoncus commodo. Ut et odio a nisl facilisis euismod ut at mi. Sed ut diam elementum, imperdiet nunc at, scelerisque arcu. Morbi at neque mattis, posuere lectus ut, euismod sem. Suspendisse vitae dui at mi rhoncus feugiat."
 }
 ```
 
