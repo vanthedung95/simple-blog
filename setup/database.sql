@@ -1,4 +1,4 @@
-CREATE TABLE `gotit_blog`.`users` (
+CREATE TABLE IF NOT EXISTS `gotit_blog`.`users` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `email` VARCHAR(45) NOT NULL,
   `fullname` VARCHAR(45) NULL,
@@ -10,7 +10,7 @@ CREATE TABLE `gotit_blog`.`users` (
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
   UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE);
 
-CREATE TABLE `blogs` (
+CREATE TABLE IF NOT EXISTS `blogs` (
   `id` int NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   `content` longtext NOT NULL,

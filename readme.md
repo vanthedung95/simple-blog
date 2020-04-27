@@ -16,7 +16,11 @@ npm install
 
 You can change the options of your app from ```/src/config/index.js``` file 
 
-4. Run project.
+4. Create tables
+
+Execute query in ``` /setup/database.sql ``` file to create needed tables
+
+5. Run project.
 
 ```js
 npm run start
